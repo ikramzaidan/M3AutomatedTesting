@@ -22,6 +22,8 @@ jika sudah memenuhi kriteria diatas teman-teman bisa melakukan clone pada projec
 
 7. `$ composer require laravel/dusk --dev`
 
+NOTE: Jika terjadi error pada saat menginstall dusk, pastikan extensi zip pada PHP sudah diaktifkan. Cara nya jalankan perintah `php --ini` pada terminal di vscode, lalu buka direktori file `php.ini` yang muncul dengan cara tahan `CRTL` lalu klik direktorinya. Kemudian cari kata kunci `zip` sampai ketemu `;extension=zip`, hilangkan tanda `;` lalu save file tersebut. Jalankan kembali perintah installasinya.
+
 8. `$ php artisan dusk:install`
 
 9. `$ php artisan dusk:chrome-driver`
