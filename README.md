@@ -10,29 +10,31 @@ jika sudah memenuhi kriteria diatas teman-teman bisa melakukan clone pada projec
 
 1. Lakukan clone proyek pada device kalian masing masing   
 
-2. `$ composer install`
+2. `composer install`
 
-3. `$ npm install`
+NOTE: Jika terjadi error pada saat menjalankan `composer install` atau `composer require laravel/dusk --dev`, pastikan extensi zip pada PHP sudah diaktifkan. Caranya jalankan perintah `php --ini` pada terminal di vscode, lalu buka direktori file `php.ini` yang muncul dengan cara tahan `CRTL` lalu klik direktorinya. Kemudian cari kata kunci `zip` sampai ketemu `;extension=zip`, hilangkan tanda `;` lalu save file tersebut. Jalankan kembali perintah installasinya.
 
-4. `$ npm run dev`
+3. `npm install`
 
-5. `$ cp .env.example .env`
+4. `npm run dev`
+
+5. `cp .env.example .env`
+
+NOTE: Jika tidak bisa, ganti perintah `cp` menjadi `copy`
 
 6. Generate key dengan perintah `$ php artisan key:generate`
 
-7. `$ composer require laravel/dusk --dev`
+7. `composer require laravel/dusk --dev`
 
-NOTE: Jika terjadi error pada saat menginstall dusk, pastikan extensi zip pada PHP sudah diaktifkan. Cara nya jalankan perintah `php --ini` pada terminal di vscode, lalu buka direktori file `php.ini` yang muncul dengan cara tahan `CRTL` lalu klik direktorinya. Kemudian cari kata kunci `zip` sampai ketemu `;extension=zip`, hilangkan tanda `;` lalu save file tersebut. Jalankan kembali perintah installasinya.
+8. `php artisan dusk:install`
 
-8. `$ php artisan dusk:install`
-
-9. `$ php artisan dusk:chrome-driver`
+9. `php artisan dusk:chrome-driver`
 
 10. Migrate database dengan perintah 
-`$ php artisan migrate`
+`php artisan migrate`
 
 11. Jalankan aplikasi dengan perintah 
-`$ php artisan serve`
+`php artisan serve`
 
 12. Sesuaikan variabel `APP_URL` di file `.env` dengan port server kalian (contoh: http://localhost:8000)
 
