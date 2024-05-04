@@ -19,7 +19,7 @@ jika sudah memenuhi kriteria diatas teman-teman bisa melakukan clone pada projec
 
 ### NOTE: Jika terjadi error pada saat menjalankan `composer install` atau `composer require laravel/dusk --dev`, pastikan extensi zip pada PHP sudah diaktifkan. Caranya jalankan perintah `php --ini` pada terminal di vscode, lalu buka direktori file `php.ini` yang muncul dengan cara tahan `CRTL` lalu klik direktorinya. Kemudian cari kata kunci `zip` sampai ketemu `;extension=zip`, hilangkan tanda `;` lalu save file tersebut. Jalankan kembali perintah installasinya.
 
-3. `npm install`
+3. `npm install` Pastikan Node.js sudah terinstall pada perangkat kalian
 
 4. `cp .env.example .env`
 
