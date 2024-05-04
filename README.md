@@ -1,3 +1,5 @@
+# PERHATIKAN BAIK-BAIK!!!
+
 # REQUIREMENT MODUL 3
 Halo teman-teman, selamat datang di modul 3 dari praktikum Perancangan Perangkat Lunak EAD laboratory 2024, kali ini teman-teman akan melakukan automated testing pada aplikasi laravel yang sudah dibuat. Hal pertama yang perlu dilakukan ketika ingin menjalankan project ini, pastikan teman-teman memiliki requirement sebagai berikut :
 
@@ -19,26 +21,25 @@ jika sudah memenuhi kriteria diatas teman-teman bisa melakukan clone pada projec
 
 3. `npm install`
 
-4. `npm run dev`
-
-5. `cp .env.example .env`
+4. `cp .env.example .env`
 
 ### NOTE: Jika tidak bisa, ganti perintah `cp` menjadi `copy`
 
-6. Generate key dengan perintah `$ php artisan key:generate`
+5. Generate key dengan perintah `php artisan key:generate`
 
-7. `composer require laravel/dusk --dev`
+6. `composer require laravel/dusk --dev`
 
-8. `php artisan dusk:install`
+7. `php artisan dusk:install`
 
-9. `php artisan dusk:chrome-driver`
+8. `php artisan dusk:chrome-driver`
 
-10. Migrate database dengan perintah 
+9. Migrate database dengan perintah 
 `php artisan migrate`
 
-11. Jalankan aplikasi dengan perintah 
+10. Jalankan aplikasi dengan perintah 
 `php artisan serve`
+`npm run dev`
 
-12. Sesuaikan variabel `APP_URL` di file `.env` dengan port server kalian (contoh: http://localhost:8000)
+11. Sesuaikan variabel `APP_URL` di file `.env` dengan port server kalian (contoh: http://localhost:8000)
 
 Selamat mengerjakan ya :)
